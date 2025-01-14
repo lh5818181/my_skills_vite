@@ -1,0 +1,113 @@
+/* Estilos Globais */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F4F4F4;
+  color: #333;
+}
+
+/* Estilos dos Botões */
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Estilos dos Títulos */
+h1, h2, h3 {
+  color: #000000;
+  margin-top: 0;
+}
+
+/* Estilos do Vídeo */
+.video {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos das Imagens */
+.image {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos Ícones */
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.icon-container {
+  margin: 5px;
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon-button img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.2s ease;
+}
+.icon-button img:hover {
+  transform: scale(1.1);
+}
+
+/* Divisórias (linhas horizontais) */
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+/* Responsividade para dispositivos móveis e tablets */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon-button img {
+    width: 40px;
+    height: 40px;
+  }
+  .skills {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .video, .image {
+    max-width: 100%;
+    margin: 0 auto 20px auto; /* Centraliza e ajusta a margem inferior */
+  }
+  .section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .content {
+    max-width: 100%;
+  }
+}
