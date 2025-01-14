@@ -29,24 +29,6 @@ h1, h2, h3 {
   margin-top: 0;
 }
 
-/* Estilos do Vídeo */
-.video {
-  width: 100%;
-  max-width: 800px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilos das Imagens */
-.image {
-  width: 100%;
-  max-width: 400px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 /* Estilos dos Ícones */
 .icons {
   display: flex;
@@ -98,10 +80,7 @@ hr {
     max-width: 100%;
     padding: 10px;
   }
-  .video, .image {
-    max-width: 100%;
-    margin: 0 auto 20px auto; /* Centraliza e ajusta a margem inferior */
-  }
+
   .section {
     flex-direction: column;
     align-items: center;
