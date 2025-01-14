@@ -29,7 +29,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   min-height: 100vh; /* Garantir que o rodapé fique no fim da página */
 }
 
